@@ -1,7 +1,8 @@
 # DiceRoller
 
-Name: Kyle Bye
-Project: DiceRoller
+Name: Kyle Bye \
+Project: DiceRoller \
+Email: kylevbye@lewisu.edu
 
 Dice Images from Delapouite.
 https://game-icons.net/1x1/delapouite/dice-six-faces-one.html 

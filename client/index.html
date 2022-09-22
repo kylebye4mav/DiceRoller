@@ -3,20 +3,45 @@
 	Class:		Software Engineering
 	Project:	Lab 2/Dice Roller
 	Desc:		Rolls dice for user. Does it on command too!
+
+	DiceImages: https://game-icons.net/1x1/delapouite/dice-six-faces-one.html
 -->
 <!DOCTYPE html>
 <html>
 
 <head>
+	<link rel="stylesheet" href="index.css">
+	<script src="diceroller.js"></script>
 	<title>Dice Roller 9000!</title>
 </head>
 
 <body>
 
-	<h1>Dice Roller 9000</h1>
-	<p>This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft 
-	Azure.</p>
-	
+	<div class="centered">
+
+		<h1>Dice Roller 9000</h1>
+		<p>Insert instructions here lol</p>
+		<br>
+
+
+		<div id="gameArea">
+			<p id="diceRollCount">
+				1-6
+			</p>
+			<br>
+			<img id="diceImg" src="diceimg/dice0.png" alt="diceImage" width=500px height=500px>
+			<br>
+			<br>
+			<button id ="rollButton" type="button">Roll dice</button>
+			<br>
+			<p id="winCondition">
+				To Win, or to lose?
+			</p>
+		</div>
+
+	</div>
+
+
 </body>
 
 </html>

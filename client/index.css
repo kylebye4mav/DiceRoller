@@ -1,0 +1,11 @@
+.centered {
+    text-align: center;   
+}
+
+#gameArea {
+    font-size: 20px;
+}
+
+#rollButton{
+    font-size: 30px;
+}
